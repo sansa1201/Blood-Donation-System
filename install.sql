@@ -1,4 +1,4 @@
-For table blood_bank;
+--For table blood_bank;
 CREATE TABLE Blood_Bank
 (
   Blood_Bank_Name VARCHAR(150) NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE Blood_Bank
   PRIMARY KEY (Blood_bank_ID)
 );
 
-For table Hospital;
+--For table Hospital;
 CREATE TABLE Hospital
 (
   Address VARCHAR(250) NOT NULL,
@@ -17,7 +17,7 @@ CREATE TABLE Hospital
   PRIMARY KEY (Hospital_ID)
 );
 
-For table patient;
+--For table patient;
 CREATE TABLE Patient
 (
   F_name VARCHAR(50) NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE Patient
   FOREIGN KEY (Hospital_ID) REFERENCES Hospital(Hospital_ID)
 );
 
-For table blood;
+--For table blood;
 CREATE TABLE Blood
 (
   Type CHAR(2) NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE Blood
   FOREIGN KEY (Blood_bank_ID) REFERENCES Blood_Bank(Blood_bank_ID)
 );
 
-For table donor;
+--For table donor;
 CREATE TABLE Donor
 (
   Donor_ID INT NOT NULL,
@@ -54,7 +54,7 @@ CREATE TABLE Donor
 );
 
 
-For table Interacts;
+--For table Interacts;
 CREATE TABLE Interacts
 (
   Blood_bank_ID INT NOT NULL,
