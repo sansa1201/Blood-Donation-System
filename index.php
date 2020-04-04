@@ -93,6 +93,9 @@ echo '<tr bgcolor=#F6DDCC style="color:#00006a">
 
 <h2 style="color:Red"; align="center" class="w3-myfont">Donor Information</h2>
 <br/>
+<a class="btn btn-danger create-new pull-right" href="newDonorForm.php">Create New</a>
+
+<br/>
 <th>First name</th>
 <th>Last Name</th>
 <th>Donor ID</th>
