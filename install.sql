@@ -70,6 +70,5 @@ INSERT INTO `blood_bank` (`Blood_Bank_Name`,`Blood_bank_ID`,`Issues`) VALUES ("U
 INSERT INTO `Hospital` (`Address`,`Hospital_Name`,`Hospital_ID`,`Phone_number`) VALUES ("P.O. Box 642, 6594 Ornare, Rd.","Risus LLP",395633,"51343212");
 INSERT INTO `Patient` (`F_name`,`L_name`,`Patient_ID`,`Phone_number`,`Hospital_ID`) VALUES ("Jacqueline","Horton",215469,"16110714",395633);
 INSERT INTO `Blood` (`Type`,`Cost`,`Blood_ID`,`Blood_bank_ID`) VALUES ("A","111.17",442497, 862943);
-
-INSERT INTO `Donor` (`Donor_ID`,`F_name`,`L_name`,`Date_of_Birth`,`Phone_number`,`Blood_ID`) VALUES (285267,"Barry","Montgomery","1997-10-17 ","16750304",442497);
+INSERT INTO `Donor` (`Donor_ID`,`F_name`,`L_name`,`Date_of_Birth`,`Phone_number`,`Blood_ID`, `Blood_group` ) VALUES (285267,"Barry","Montgomery","1997-10-17 ","16750304",442497,"A");
 INSERT INTO `Interacts` (`Blood_bank_ID`,`Hospital_ID`) VALUES (862943, 395633);
