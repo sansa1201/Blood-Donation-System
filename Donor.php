@@ -101,7 +101,7 @@ echo '<tr bgcolor=#F6DDCC style="color:#00006a">
 <th>Donor ID</th>
 <th>Date of Birth</th>
 <th>Phone Number</th>
-<th>Blood ID</th>
+<th>Blood Group</th>
 </tr>';
 
    while($row = $result->fetch_assoc())
@@ -112,7 +112,7 @@ echo '<tr bgcolor=#F6DDCC style="color:#00006a">
         echo '<td>' .$row["Donor_ID"] . '</td>';
 	echo '<td>' .$row["Date_of_Birth"] . '</td>';
 	echo '<td>' .$row["Phone_number"] . '</td>';
-	echo '<td>' .$row["Blood_ID"]. '</td>';
+	echo '<td>' .$row["Blood_group"]. '</td>';
 	echo '</tr>';
    	 }
 
