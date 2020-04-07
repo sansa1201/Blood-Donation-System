@@ -104,12 +104,13 @@
                 <img src="donor.jpg" style="width:100%">
              </div>
              <div class="column">
-             <form action="Donor.php" method="post">
+             <form action="newDonor.php" method="post">
                 <label for="fname" style="color:#00006a">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Name..">
                 <label for="lname" style="color:#00006a">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Last name..">
-                <label for="dob" style="color:#00006a">Date of Birth(YYYY-MM-DD)</label>
+
+                <label for="dob" style="color:#00006a">Date of Birth(YYYY-MM-DD)</label>4
 <input id="fDOB" name="Father DOB" type="text"><input onclick="popupDatePicker(this.form.fDOB)" value="..." type="button">
 
 For mannual input ....
