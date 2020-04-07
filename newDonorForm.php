@@ -104,7 +104,7 @@
                 <img src="donor.jpg" style="width:100%">
              </div>
              <div class="column">
-             <form action="newDonor.php" method="post">
+             <form action="Donor.php" method="post">
                 <label for="fname" style="color:#00006a">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Name..">
                 <label for="lname" style="color:#00006a">Last Name</label>
